@@ -34,7 +34,6 @@ button{
   }
 
 button[slot="hotspot-pc"]:not([data-visible]) {
-  --min-hotspot-opacity: 0;
   background-color: red;
   }
 
