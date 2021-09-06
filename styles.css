@@ -33,7 +33,7 @@ button{
     box-sizing: border-box;
   }
 
-button[slot="pc-front"]{
+button[slot="hotspot-pc"]{
     --min-hotspot-opacity: 0;
     background-color: red;
   }
