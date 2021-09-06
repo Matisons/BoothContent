@@ -22,3 +22,21 @@ model-viewer {
   background-color: #70BCD1;
   --poster-color: #ffffff00;
 }
+
+button{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  box-sizing: border-box;
+}
+
+#annotation{
+  background-color: #888888;
+  position: absolute;
+  transform: translate(10px, 10px);
+  border-radius:10px;
+  padding: 10px;
+}
