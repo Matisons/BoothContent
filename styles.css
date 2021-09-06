@@ -33,9 +33,9 @@ button{
     box-sizing: border-box;
   }
 
-button[slot="hotspot-pc"]{
-    --min-hotspot-opacity: 0;
-    background-color: red;
+button[slot="hotspot-pc"]:not([data-visible]) {
+    background-color: transparent;
+    border: 3px solid blue;
   }
 
 #annotation{
